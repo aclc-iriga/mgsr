@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mgsr`
+-- Database: `mgsr-nabua`
 --
 
 -- --------------------------------------------------------
@@ -104,7 +104,7 @@ CREATE TABLE `competitions` (
 --
 
 INSERT INTO `competitions` (`id`, `slug`, `title`, `created_at`, `updated_at`) VALUES
-(1, 'mgsr-2023', 'Miss Gay San Roque 2023', '2023-04-06 13:24:04', '2023-04-06 13:24:04');
+(1, 'mgsr-nabua-2023', 'Miss Gay San Roque 2023', '2023-04-06 13:24:04', '2023-04-06 13:24:04');
 
 -- --------------------------------------------------------
 
