@@ -32,6 +32,7 @@ app/crud/uploads/*
 !app/crud/uploads/11-winsy-pesebre.jpg
 !app/crud/uploads/12-rona-arevalo.jpg
 !app/crud/uploads/13-maria-zuzete
+!app/crud/uploads/ramona.jpg
 !app/crud/uploads/no-avatar.jpg
 !app/crud/dist
 /cypress/videos/
