@@ -9,14 +9,26 @@
 
     // involved events
     const EVENT_SLUGS = [
-        'production',
-        'swimwear',
-        'advocacy',
-        'evening-gown'
+        [
+            'slug'    => 'production-number',
+            'percent' => 25
+        ],
+        [
+            'slug'    => 'swimsuit',
+            'percent' => 25
+        ],
+        [
+            'slug'    => 'preliminary-qa',
+            'percent' => 25
+        ],
+        [
+            'slug'    => 'long-gown',
+            'percent' => 25
+        ],
     ];
 
     // initialize titles
-    $titles = ['1', '2', '3', '4', '5', '6', '7', '8'];
+    $titles = ['1', '2', '3', '4', '5'];
 
     // initialize admin
     $admin = new Admin();
