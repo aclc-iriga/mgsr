@@ -486,50 +486,6 @@ foreach ($judges as $judge) {
             <div class="col-md-12" align="center">
                 <!--                <img src="../../crud/uploads/competition.png" style="width: 256px;" alt="Event">-->
             </div>
-
-            <!-- ordered -->
-            <div class="col-md-6" align="center">
-                <h1><b>TOP <?= sizeof($titles) ?></b> in <b class="text-success">Proper</b> Order</h1>
-                <div class="mt-4" style="width: 80%;">
-                    <table class="table table-bordered mt-3">
-                        <tbody>
-                        <?php
-                        foreach($tops_ordered as $team_id) {
-                            $team_key = 'team_'.$team_id;
-                            if (isset($result[$team_key])) {
-                                $team = $result[$team_key];
-                                ?>
-                                <tr>
-                                    <!-- number -->
-                                    <td class="fw-bold text-center">
-                                        <h2 class="m-0 fw-bold">
-                                            <?= $team['info']['number'] ?>
-                                        </h2>
-                                    </td>
-
-                                    <!-- avatar -->
-                                    <td style="width: 88px;">
-                                        <img
-                                                src="../../crud/uploads/<?= $team['info']['avatar'] ?>"
-                                                alt="<?= $team['info']['number'] ?>"
-                                                style="width: 100%; border-radius: 100%"
-                                        >
-                                    </td>
-
-                                    <!-- name -->
-                                    <td>
-                                        <h6 class="text-uppercase m-0"><?= $team['info']['name'] ?></h6>
-                                        <small class="m-0"><?= $team['info']['location'] ?></small>
-                                    </td>
-                                </tr>
-                                <?php
-                            }
-                        }
-                        ?>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
     </div>
 </div>
